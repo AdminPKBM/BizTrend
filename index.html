@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BizTrend: Analisis & Berita Bisnis Terupdate</title>
+    <meta name="description" content="Update harian berita bisnis dari Yahoo Finance, Forbes, dan CNBC secara real-time.">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <header class="bg-blue-900 text-white p-6 shadow-lg">
+        <div class="container mx-auto">
+            <h1 class="text-3xl font-bold">BizTrend Analytics</h1>
+            <p class="text-sm opacity-80">Data real-time dari pasar global & finansial</p>
+        </div>
+    </header>
+
+    <main class="container mx-auto my-8 p-4">
+        <h2 class="text-2xl font-semibold mb-6 border-b-2 border-blue-500 pb-2">Berita Bisnis Utama</h2>
+        
+        <div id="loading" class="text-center py-10">Memuat data terbaru...</div>
+
+        <div id="news-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            </div>
+    </main>
+
+    <footer class="bg-gray-200 text-center p-6 mt-12 text-sm text-gray-600">
+        &copy; 2026 BizTrend Analytics. Data diupdate otomatis melalui sistem integrasi API.
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
